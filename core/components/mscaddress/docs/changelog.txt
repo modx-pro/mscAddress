@@ -1,0 +1,10 @@
+Changelog for mscAddress.
+
+1.0.2-beta
+==============
+- Fixed mscaAddressHandler
+- Fixed snippet mscAddress
+
+1.0.1-beta
+==============
+- First release
