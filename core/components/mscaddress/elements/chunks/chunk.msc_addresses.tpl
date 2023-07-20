@@ -1,7 +1,7 @@
 <div id="mscaAddress">
 	<form method="post" class="msca_form">
 		<button class="btn btn-default" type="submit" name="msca_action" value="address/add">
-			<i class="glyphicon glyphicon-plus"></i>
+			<i class="glyphicon glyphicon-plus"></i> {'msca_addr_add' | lexicon}
 		</button>
 	</form>
 	<br>
@@ -30,7 +30,7 @@
 							<form method="post" class="msca_form">
 								<input type="hidden" name="id" value="{$address.id}">
 								<button class="btn btn-default" type="submit" name="msca_action" value="address/edit">
-									<i class="glyphicon glyphicon-pencil"></i>
+									<i class="glyphicon glyphicon-pencil"></i> {'msca_addr_edit'|lexicon}
 								</button>
 							</form>
 						</td>
@@ -38,7 +38,7 @@
 							<form method="post" class="msca_form">
 								<input type="hidden" name="id" value="{$address.id}">
 								<button class="btn btn-default" type="submit" name="msca_action" value="address/remove">
-									<i class="glyphicon glyphicon-remove"></i>
+									<i class="glyphicon glyphicon-remove"></i> {'Удалить'|lexicon}
 								</button>
 							</form>
 						</td>
