@@ -38,7 +38,7 @@
 							<form method="post" class="msca_form">
 								<input type="hidden" name="id" value="{$address.id}">
 								<button class="btn btn-default" type="submit" name="msca_action" value="address/remove">
-									<i class="glyphicon glyphicon-remove"></i> {'Удалить'|lexicon}
+									<i class="glyphicon glyphicon-remove"></i> {'msca_addr_remove'|lexicon}
 								</button>
 							</form>
 						</td>
