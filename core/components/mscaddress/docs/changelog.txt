@@ -1,5 +1,10 @@
 Changelog for mscAddress.
 
+1.1.0
+==============
+- Romanian lexicon
+- New fields from miniShop2
+
 1.0.2-beta
 ==============
 - Fixed mscaAddressHandler

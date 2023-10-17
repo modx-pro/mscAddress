@@ -8,8 +8,8 @@ return [
     'name' => 'mscAddress',
     'name_lower' => 'mscaddress',
     'name_prefix' => 'msca',
-    'version' => '1.0.2',
-    'release' => 'beta',
+    'version' => '1.1.0',
+    'release' => 'pl',
     // Install package to site right after build
     'install' => true,
     // Which elements should be updated on package upgrade
