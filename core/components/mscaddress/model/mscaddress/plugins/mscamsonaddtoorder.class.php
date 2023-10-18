@@ -20,12 +20,13 @@ class mscaMsOnAddToOrder extends mscaPlugin
 			unset($fields['id'],$fields['title'],$fields['user_id'],$fields['rank']);
 			
 			foreach (array_keys($fields) as $field){
-				$addr_value = $address->get($field);
-				if ($field != 'properties')
-					$order->add($field, $addr_value);
-				else{
-					foreach ($addr_value as $prop_key => $prop_value){
-						$order->add($prop_key, $prop_value);
+				if($addr_value = $address->get($field)) {
+					if ($field != 'properties') {
+						$order->add($field, $addr_value);
+					} else {
+						foreach ($addr_value as $prop_key => $prop_value){
+							$order->add($prop_key, $prop_value);
+						}
 					}
 				}
 			}
